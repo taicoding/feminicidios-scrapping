@@ -1,0 +1,5 @@
+Links=//h5[@class="titulo"]/a/@href
+Titulo=//h1[@class="titular"]/text()
+Resumen=//strong[@class="bajada"]/text()
+Cuerpo=//div[@class="cuerpo-nota"]/p[not(@class)]/text()
+Fecha=//h3[@class="titulo-grupo"]/text()
